@@ -17,6 +17,7 @@ public class Horista extends Empregado {
       return horas;
   }
 
+  // Cálculo do salário com base nas horas trabalhadas
   public void calcularSalario() {
       salario = horas * 50;
   }
