@@ -4,11 +4,13 @@ public class Empregado {
     protected String endereco;
     protected double salario;
 
+    // Construtor
     public Empregado(String endereco, String nome) {
         this.endereco = endereco;
         this.nome = nome;
     }
-
+    
+    // Métodos de acesso
     public String getNome() {
         return nome;
     }
